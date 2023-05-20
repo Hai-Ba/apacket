@@ -1,0 +1,8 @@
+.content {
+    overflow-y: auto;
+    /* margin-top: 68px; */
+    position: relative;
+    top: 68px;
+    height: calc(100% - 68px - 72px);
+    background-color: black;
+}

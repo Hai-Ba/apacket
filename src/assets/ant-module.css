@@ -1,0 +1,18 @@
+.ant-table-striped :deep(td) {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .ant-table-striped :deep(th) {
+    font-weight: 800;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.966);
+    color: #fff;
+  }
+  
+  .ant-table-striped :deep(tr):hover td{
+    background-color: rgba(0, 0, 0, 0.966);
+    color: red;
+  }

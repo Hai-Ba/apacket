@@ -1,0 +1,32 @@
+@import './base.css';
+
+#app {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.ct_txt_white {
+  color: var(--vt-c-white-soft);
+}
+
+.app_bg_color {
+  background-color: var(--vt-c-black);
+}
+
+.router-link-active {
+  /* background-color: white; */
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #f8f8f8;
+}
+
+ol, ul, dl{
+  margin: 0px;
+}
